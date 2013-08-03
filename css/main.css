@@ -1,21 +1,59 @@
+@font-face {
+    font-family: 'source_code_prolight';
+    src: url('sourcecodepro-light-webfont.eot');
+    src: url('sourcecodepro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcecodepro-light-webfont.woff') format('woff'),
+         url('sourcecodepro-light-webfont.ttf') format('truetype'),
+         url('sourcecodepro-light-webfont.svg#source_code_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_code_promedium';
+    src: url('sourcecodepro-medium-webfont.eot');
+    src: url('sourcecodepro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcecodepro-medium-webfont.woff') format('woff'),
+         url('sourcecodepro-medium-webfont.ttf') format('truetype'),
+         url('sourcecodepro-medium-webfont.svg#source_code_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'source_code_proregular';
+    src: url('sourcecodepro-regular-webfont.eot');
+    src: url('sourcecodepro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcecodepro-regular-webfont.woff') format('woff'),
+         url('sourcecodepro-regular-webfont.ttf') format('truetype'),
+         url('sourcecodepro-regular-webfont.svg#source_code_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
 	background:url(../images/bg1.gif);
-	font:13px verdana, arial, sans-serif;
+	font:13px "source_code_prolight";
 	color:#333;
 }
 
 h1 {
-	font:34px georgia, "Times New Roman", Times, serif;
+	font:34px "source_code_prolight";
 	color:#333;
 }
 
 h2 {
-	font:32px georgia, "Times New Roman", Times, serif;
+	font:32px "source_code_prolight";
 	color:#333;
 }
 
 h3 {
-	font:normal 22px georgia, "Times New Roman", Times, serif;
+	font:normal 22px "source_code_prolight";
 	color:#333;
 	border-bottom: 1px solid #333;
 	margin:0; padding:0;
